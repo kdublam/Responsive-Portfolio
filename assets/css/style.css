@@ -1,0 +1,233 @@
+/* Main CSS for the Nav bar, Body, and Footer */
+
+body {
+    background-image: url("../images/gaming-pattern.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.whitebar{
+    background-color: white;
+    margin:auto;
+    width: 100%;
+    height: 78px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.topheader{
+    width: 960px;
+    margin:auto;
+}
+
+.name{
+    float: left;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 21px;
+    margin: 0;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.topmenu {
+    background-color: #ffffff;
+    overflow: hidden;
+    float: right;
+}
+
+.topmenu a{
+    display: inline-block;
+    color: #777777;
+    text-align: center;
+    padding: 30px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.topmenu a:hover{
+    background-color: #ddd;
+    color: #000000;
+}
+
+.topmenu a.active{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 30px;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #666666;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom:10px;
+    right:0;
+    left:0;
+    border-top: 8px solid #4aaaa5;
+    font-size: 12px;
+}
+
+
+/* About Me section on the index.html page */
+
+
+.content{
+    background-color: #ffffff;
+    color: #777777;
+    margin-top: 80px;
+    margin: auto;
+    border: 1px solid #dddddd;
+    width: 960px;
+    margin-bottom: 100px;
+}
+
+.content h1{
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #4aaaa5;
+}
+
+.content img{
+    float: left;
+    padding: 20px;
+    height: 200px;
+}
+
+.content hr{
+    width: 920px;
+}
+
+.content p{
+    line-height: 2;
+    padding:20px;
+}
+
+
+/* Contact form on the contact.html page */
+
+.contact{
+    background-color: #ffffff;
+    color: #777777;
+    margin-top: 20px;
+    margin: auto;
+    margin-bottom:100px;
+    border: 1px solid #dddddd;
+    width: 960px;
+    padding-bottom:30px;
+}
+
+.contact hr{
+    width: 920px;
+}
+
+form{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contact h1{
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #4aaaa5;
+}
+
+input[type=text] {
+    width: 98%;
+    padding: 10px;
+    margin-right: 20px;
+    border: 1px solid #dddddd;
+}
+
+textarea{
+    width:100%;
+    height: 200px;
+    resize: vertical; 
+    border: 1px solid #dddddd;
+}
+
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+
+/* Portfolio Section on the portfolio.html page */
+
+.portfolio{
+    background-color: #ffffff;
+    color: #777777;
+    margin-top: 20px;
+    margin: auto;
+    margin-bottom: 100px;
+    border: 1px solid #dddddd;
+    width: 960px;
+    padding-bottom: 30px;
+    position: relative;
+    height: 880px;
+}
+
+.portfolio hr{
+    width: 920px;
+}
+
+.portfolio h1{
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #4aaaa5;
+}
+
+.portimage{
+    width: 300px;
+    float:left;
+    position: absolute;
+}
+
+.textbox{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    width: 300px;
+    float: left;
+    top: 150px;
+}
+
+.row1{
+    top:140px;
+    position: absolute;
+}
+
+.row2{
+    top:400px;
+    position: absolute;
+}
+
+.row3{
+    top: 660px;
+    position: absolute;
+}
+
+.column1{
+    left: 20px;
+    position: relative;
+}
+
+.column2{
+    left: 370px;
+    position: relative;
+}
