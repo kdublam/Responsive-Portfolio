@@ -103,6 +103,7 @@ footer{
 .content p{
     line-height: 2;
     padding:20px;
+    text-align: justify;
 }
 
 
@@ -229,3 +230,144 @@ input[type=submit] {
     left: 370px;
     position: relative;
 }
+
+/* Media Query */
+
+/* 767px */
+
+@media screen and (max-width: 980px){
+    .topheader{
+        width: 100%;
+        margin-left:20px;
+    }
+    .topmenu{
+        margin-right: 20px;
+    }
+    .content {
+        width: 90%;
+        margin-left: 40px;
+    }
+    .content hr{
+       width:95%;
+    }
+    .contact {
+        width: 90%;
+        margin-left: 40px;
+    }
+    .contact hr{
+       width:95%;
+    }
+    .portfolio {
+        width: 90%;
+        margin-left: 40px;
+    }
+    .portfolio hr{
+       width:95%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .topheader{
+        width: 95%;
+        margin-left:35px;
+    }
+    .topmenu{
+        margin-right: 10px;
+    }
+    .content {
+        width: 90%;
+        margin-left: 35px;
+    }
+    .content hr{
+       width:94%;
+    }
+    .contact {
+        width: 90%;
+        margin-left: 35px;
+    }
+    .contact hr{
+       width:94%;
+    }
+    .portfolio {
+        width: 90%;
+        margin-left: 35px;
+    }
+    .portfolio hr{
+       width:94%;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .name{
+        width:100%;
+        display: inline-block;
+        text-align: center;
+    }
+    .topheader{
+        margin-left:0;
+    }
+    .topmenu{
+        width:100%;
+        display: inline-block;
+        text-align: center;
+        margin: 0;
+    }
+    .content{
+        margin-top:120px;
+    }
+    .content img{
+        display: incline-block;
+        height: auto;
+        width: 90%;
+        margin-left:10px;
+    }
+    .contact{
+        margin-top:120px;
+    }
+    .portfolio{
+        margin-top:120px;
+    }
+    .portimage{
+        width: 500px;
+        height:auto;
+        display: inline-block;
+    }
+    /* .textbox{
+        background-color: #4aaaa5;
+        color: #ffffff;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-family: Georgia, Times, "Times New Roman", serif;
+        font-size: 18px;
+        text-align: center;
+        position: absolute;
+        width: 300px;
+        float: left;
+        top: 150px;
+    } */
+    
+    /* .row1{
+        width
+    }
+    
+    .row2{
+        top:400px;
+        position: absolute;
+    }
+    
+    .row3{
+        top: 660px;
+        position: absolute;
+    } */
+    
+    .column1{
+        /* width:100%; */
+        display: inline-block;
+    }
+    
+    .column2{
+        width:100%;
+        display: inline-block;
+    }
+}
+
